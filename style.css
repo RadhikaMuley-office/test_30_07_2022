@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Varela+Round&display=swap');
+:root {
+  --color: deeppink;
+  --background: #ECD1CD;
+  --border:#E796A0;
+  --body-background:#246D82;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:0;
+    font-family: 'Square Peg', cursive;   
+}
+
+body{
+    height: 98vh;
+    width: 99%;
+    background-color: var(--body-background);
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    color: deeppink;
+
+}
+section{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+
+}
+
+ form {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+
+}
+form{
+    width: 60%;
+    padding-top:10px;
+    background-color: var(--background);
+    justify-content:space-evenly;
+    }
+
+    
+input, select {
+    height: 10%;
+    width: 50%;
+    border-color:var(--border);
+    color: deeppink;
+    /* background-color: #; */
+  
+}
+option::after, ::placeholder{
+    border-color: deeppink;
+    color: deeppink;
+    text-transform: capitalize;
+}
+
+button{
+    height: 10%;
+    width: 20%;
+    color: deeppink;
+    border-color: deeppink;
+    border-radius: 10px;
+}
